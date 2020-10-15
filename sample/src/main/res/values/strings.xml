@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewBindingHelper Sample</string>
+    <string name="bind_view">Bind view</string>
+    <string name="bind_dialog">Bind dialog</string>
+</resources>

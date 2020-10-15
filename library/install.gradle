@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.danl.viewbindinghelper'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.danl.viewbindinghelper'
+                artifactId 'com.danl.viewbindinghelper'
+                name 'viewbindinghelper'
+                description 'Makes working with Android ViewBinding easier.'
+                url 'https://github.com/danl12/ViewBindingHelper'
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'danl12'
+                        name 'Daniil Karamyshev'
+                        email 'danl23dev@gmail.com'
+                    }
+                }
+
+                scm {
+                    connection 'https://github.com/danl12/ViewBindingHelper.git'
+                    developerConnection 'https://github.com/danl12/ViewBindingHelper.git'
+                    url 'https://github.com/danl12/ViewBindingHelper'
+                }
+            }
+        }
+    }
+}
