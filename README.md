@@ -10,7 +10,7 @@ Read [official guide](https://d.android.com/topic/libraries/view-binding) how do
 ```gradle
 dependencies {
   ...
-  implementation 'com.danl.viewbindinghelper:com.danl.viewbindinghelper:1.0.0'
+  implementation 'com.danl.viewbindinghelper:viewbindinghelper:1.0.0'
 }
 ```
 
