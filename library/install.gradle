@@ -8,7 +8,7 @@ install {
             project {
                 packaging 'aar'
                 groupId 'com.danl.viewbindinghelper'
-                artifactId 'com.danl.viewbindinghelper'
+                artifactId 'viewbindinghelper'
                 name 'viewbindinghelper'
                 description 'Makes working with Android ViewBinding easier.'
                 url 'https://github.com/danl12/ViewBindingHelper'
