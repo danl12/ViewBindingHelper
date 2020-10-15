@@ -5,6 +5,15 @@ Makes working with Android ViewBinding easier.
 ## IMPORTANT: Don't forget enable ViewBinding.
 Read [official guide](https://d.android.com/topic/libraries/view-binding) how do this.
 
+# Install
+
+```gradle
+dependencies {
+  ...
+  implementation 'com.danl.viewbindinghelper:com.danl.viewbindinghelper:1.0.0'
+}
+```
+
 # Usage
 
 ## Activity
