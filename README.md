@@ -2,6 +2,9 @@
 
 Makes working with Android ViewBinding easier.
 
+## IMPORTANT: Don't forget enable ViewBinding.
+Read [official guide](https://d.android.com/topic/libraries/view-binding) how do this.
+
 # Usage
 
 ## Activity
@@ -54,7 +57,7 @@ dialog.binding<DialogSampleBinding>().let {
 }
 ```
 
-## Dialog
+## AlertDialog
 
 ```kotlin
 AlertDialog.Builder(requireContext()).bind<DialogSampleBinding> {
