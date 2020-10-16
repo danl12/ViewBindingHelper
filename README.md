@@ -1,6 +1,6 @@
 # ViewBindingHelper
 
-Makes it easier to work with Android ViewBinding.
+Makes it easier to work with [Android ViewBinding](https://developer.android.com/topic/libraries/view-binding).
 
 # Install
 
