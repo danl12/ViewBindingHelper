@@ -1,13 +1,17 @@
 # ViewBindingHelper
 
-Makes working with Android ViewBinding easier.
-
-## IMPORTANT: Don't forget enable ViewBinding.
-Read [official guide](https://d.android.com/topic/libraries/view-binding) how do this.
+Makes it easier to work with Android ViewBinding.
 
 # Install
 
 ```gradle
+android {
+    ...
+    buildFeatures {
+        viewBinding true
+    }
+}
+
 dependencies {
   ...
   implementation 'com.danl.viewbindinghelper:viewbindinghelper:1.0.1'
