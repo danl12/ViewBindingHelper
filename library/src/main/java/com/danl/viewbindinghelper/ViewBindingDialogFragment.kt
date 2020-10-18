@@ -33,12 +33,9 @@ abstract class ViewBindingDialogFragment<B : ViewBinding> : AppCompatDialogFragm
         ).let { invoke ->
             (invoke(null, inflater, container, false) as B).also {
                 _binding = it
+                onBindingCreated(savedInstanceState)
             }.root
         }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        onBindingCreated(savedInstanceState)
-    }
 
     protected open fun onBindingCreated(savedInstanceState: Bundle?) {
 
