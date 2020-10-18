@@ -14,7 +14,7 @@ android {
 
 dependencies {
   ...
-  implementation 'com.danl.viewbindinghelper:viewbindinghelper:1.0.1'
+  implementation 'com.danl.viewbindinghelper:viewbindinghelper:1.0.2'
 }
 ```
 
