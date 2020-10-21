@@ -17,6 +17,10 @@ dependencies {
   implementation 'com.danl.viewbindinghelper:viewbindinghelper:1.0.2'
 }
 ```
+## Proguard rules
+```
+-keep class com.applicationname.databinding.** { *; }
+```
 
 # Usage
 
