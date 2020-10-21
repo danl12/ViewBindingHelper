@@ -19,7 +19,9 @@ dependencies {
 ```
 ## Proguard rules
 ```
--keep class com.applicationname.databinding.** { *; }
+-keep class com.example.app.databinding.* {
+    <methods>;
+}
 ```
 
 # Usage
